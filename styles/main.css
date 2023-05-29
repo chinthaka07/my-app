@@ -200,6 +200,12 @@
 .bottom-element{
     bottom: -200px;
 }
+.team-item-outer:hover .bottom-element{
+    bottom: 0;
+}
+.team-item-outer:hover .top-element{
+    top: 0;
+}
 /*middle photo frames end*/
 
 @media (max-width: 1000px) {
